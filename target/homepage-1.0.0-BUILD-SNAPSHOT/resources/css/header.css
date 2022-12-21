@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pretendard";
+    box-sizing: border-box;
+    /* transition: all 0.3s; */
+}
+
+a {
+    text-decoration: none;
+    font-family: "Pretendard";
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    font-family: "Pretendard";
+}
+
+ul {
+    list-style: none;
+}
+
+.cen {
+    width: 1200px;
+}
+
+/* 로그인 영역 */
+.top_layout {
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+}
+.top_layout .login_area {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1rem;
+    height: 100%;
+    align-items: center;
+    gap: 0.5rem;
+}
+.top_layout .login_area > a {
+    font-size: 0.9rem;
+}
+
+/* 헤더 영역 */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+}
+header .header_layout {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header_layout .cen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header_layout .header_logo {
+    width: 150px;
+}
+header .header_layout .header_logo img {
+    width: 100%;
+}
+header .header_layout .main_nav {
+    width: 70%;
+}
+header .header_layout .main_nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+header .header_layout .main_nav ul li {
+    width: 100%;
+}
+header .header_layout .main_nav ul li a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.15rem;
+}
+header .sub_nav_layout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    top:80px;
+    background-color: white;
+    transition: all 0.2s;
+}
+header .sub_nav_layout .cen {
+    display: flex;
+    justify-content: flex-end;
+}
+header .sub_nav_layout nav {
+    width: 70%;
+}
+header .sub_nav_layout nav ul {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+header .sub_nav_layout nav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+header .sub_nav_layout nav ul li a {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 0;
+}/*# sourceMappingURL=style.css.map */
